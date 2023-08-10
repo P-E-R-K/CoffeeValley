@@ -20,7 +20,19 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="tools" class="col-sm-2 col-form-label">Harga</label>
+                    <label for="tools" class="col-sm-2 col-form-label">Provinsi</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control" id="tools">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="tools" class="col-sm-2 col-form-label">No. Telepon</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control" id="tools">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="tools" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
                     <input type="text" class="form-control" id="tools">
                     </div>

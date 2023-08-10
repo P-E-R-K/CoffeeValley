@@ -547,3 +547,46 @@ in APPPATH\Views\coffee\index.php on line 17.
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 04:15:50 --> Call to undefined method App\Models\DistributorModel::getDistributor
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Distributor.php(21): CodeIgniter\Model->__call('getDistributor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Distributor->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distributor))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 04:16:06 --> mysqli_sql_exception: Table 'coffee.distributor' doesn't exist in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\coffee\app\Models\DistributorModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Distributor.php(21): App\Models\DistributorModel->getDistributor()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Distributor->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distributor))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 04:16:06 --> Table 'coffee.distributor' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `distributor`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `distributor`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `distributor`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `distributor`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DistributorModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Distributor.php(21): App\Models\DistributorModel->getDistributor()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Distributor->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distributor))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')

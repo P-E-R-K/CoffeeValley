@@ -14,7 +14,7 @@
         <div class="d-grid gap-5 d-md-block">
           <a href=""><button class="btn btn-danger" type="button">Home</button></a>
           <a href="<?= base_url(); ?>katalog"><button class="btn btn-danger" type="button">Catalog</button></a>
-          <a href=""><button class="btn btn-danger" type="button">Distributor</button></a>
+          <a href="<?= base_url(); ?>distributor"><button class="btn btn-danger" type="button">Distributor</button></a>
           <a href=""><button class="btn btn-danger" type="button">Upload</button></a>
           <a href="<?= base_url(); ?>/logout"><button class="btn btn-danger" type="button">Logout</button></a>
           

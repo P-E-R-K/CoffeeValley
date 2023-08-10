@@ -2,6 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container other" id="other">
+  <h1 class="">Daftar Distributor</h1>
     <div class="row">
         <div class="col">      
         <table class="table">
@@ -13,15 +14,18 @@
               </tr>
             </thead>
             <tbody>
-              <?php foreach($Coffee as $c) : ?>
+              <?php foreach($Distributor as $d) : ?>
                 <tr>
-                  <td><?= $c['nama']; ?></td>
-                  <td><?= $c['description']; ?></td>
-                  <td><?= $c['sale_price']; ?></td>
+                  <td><?= $d['nama']; ?></td>
+                  <td><?= $d['kota']; ?></td>
+                  <td>
+                    <a href="/proyek/<?= $d['nama']; ?>" class="btn btn-success">Edit</a>
+                  </td>
                 </tr>
               <?php endforeach; ?>
             </tbody>
-      </table>
+        </table>
+        <a href="/distributor/create" class="btn btn-primary mb-3">Tambah</a>
         </div>
     </div>
 </div>
