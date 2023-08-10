@@ -1,0 +1,549 @@
+ERROR - 2023-08-10 02:39:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`username`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_gener...' at line 7 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\xampp\htdocs\coffee\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\xampp\htdocs\coffee\app\Database\Migrations\2023-08-10-023713_Users.php(35): CodeIgniter\Database\Forge->createTable('users')
+#5 E:\xampp\htdocs\coffee\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 E:\xampp\htdocs\coffee\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\xampp\htdocs\coffee\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\xampp\htdocs\coffee\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\xampp\htdocs\coffee\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\xampp\htdocs\coffee\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-08-10 02:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 02:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 03:09:03 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Auth.php on line 40.
+ 1 APPPATH\Controllers\Auth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'E:\\xampp\\htdocs\\coffee\\app\\Controllers\\Auth.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->process()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+INFO - 2023-08-10 03:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 03:44:15 --> Class "App\Models\ProyekModel" not found
+in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:44:30 --> Undefined property: App\Controllers\Home::$CoffeeModel
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$CoffeeModel', 'E:\\xampp\\htdocs\\coffee\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 03:45:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:45:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 03:46:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:46:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 03:47:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:47:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+INFO - 2023-08-10 03:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 03:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-10 03:48:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:48:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `coffee`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 03:49:06 --> mysqli_sql_exception: Table 'coffee.coffee' doesn't exist in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffee()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:49:06 --> Table 'coffee.coffee' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `coffee`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `coffee`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `coffee`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `coffee`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CoffeeModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffee()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:49:31 --> Undefined variable $coffee
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $coffee', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+ERROR - 2023-08-10 03:49:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\coffee\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\coffee\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\coffee\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\coffee\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\coffee\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\coffee\app\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\coffee\app\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+#8 E:\xampp\htdocs\coffee\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#9 E:\xampp\htdocs\coffee\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\xampp\htdocs\coffee\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\coffee\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\coffee\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-10 03:49:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bean`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bean`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bean`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bean`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CoffeeModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Home.php(19): App\Models\CoffeeModel->getCoffeeBySale()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:50:26 --> Undefined array key "nama"
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:52:06 --> Undefined array key "nama"
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:52:22 --> Undefined array key "nama"
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:52:29 --> Undefined array key "nama"
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:53:02 --> Undefined array key "nama"
+in APPPATH\Views\pages\home.php on line 8.
+ 1 APPPATH\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:56:11 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('Coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:58:04 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('Coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:58:07 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('Coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:58:10 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('Coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:58:48 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:58:51 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:59:01 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 03:59:58 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 04:00:12 --> Undefined variable $proyek
+in APPPATH\Views\coffee\detail.php on line 11.
+ 1 APPPATH\Views\coffee\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/detail', [], true)
+ 5 APPPATH\Controllers\Coffee.php(42): view('coffee/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Coffee->detail('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coffee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
+CRITICAL - 2023-08-10 04:14:44 --> Undefined variable $Coffee
+in APPPATH\Views\coffee\index.php on line 17.
+ 1 APPPATH\Views\coffee\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Coffee', 'E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\coffee\\app\\Views\\coffee\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('coffee/index', [], true)
+ 5 APPPATH\Controllers\Distributor.php(33): view('coffee/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Distributor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distributor))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\coffee\\public\\index.php')
