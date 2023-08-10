@@ -5,39 +5,39 @@
     <div class="row">
         <div class="col-8">
             <h2 class="my-3">Add Distributor</h2>
-            <form action="/distributor/save" method="post">
+            <form action="/proyek/save" method="post">
                 <?= csrf_field(); ?>
                 <div class="row mb-3">
-                    <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                    <label for="judul" class="col-sm-2 col-form-label">Nama</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="nama">
+                    <input type="text" class="form-control" id="judul">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="kota" class="col-sm-2 col-form-label">Kota</label>
+                    <label for="tahun" class="col-sm-2 col-form-label">Kota</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="kota">
+                    <input type="text" class="form-control" id="tahun">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="provinsi" class="col-sm-2 col-form-label">Provinsi</label>
+                    <label for="tools" class="col-sm-2 col-form-label">Provinsi</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="provinsi">
+                    <input type="text" class="form-control" id="tools">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="telepon" class="col-sm-2 col-form-label">No. Telepon</label>
+                    <label for="tools" class="col-sm-2 col-form-label">No. Telepon</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="telepon">
+                    <input type="text" class="form-control" id="tools">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                    <label for="tools" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="email">
+                    <input type="text" class="form-control" id="tools">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Tambah</button>
+                <button type="submit" class="btn btn-primary">Ubah</button>
             </form>
         </div>
     </div>

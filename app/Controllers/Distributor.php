@@ -20,15 +20,6 @@ class Distributor extends BaseController
             'title' => 'Daftar Distributor',
             'Distributor' => $this->DistributorModel->getDistributor()
         ];
-
-        // Konek DB tanpa model
-        // $db = \config\Database::connect();
-        // $Distributor = $db->query("SELECT * FROM Distributor");
-
-        // foreach($Distributor->getResultArray() as $row) {
-        //     d($row);
-        // }
-        //  $komikModel = new \App\Models\DistributorModel();
         
         return view('distributor/index', $data);
     }
@@ -43,6 +34,8 @@ class Distributor extends BaseController
 
     public function save()
     {
+        $nama = $this->request->getVar('nama');
+        $kota = $this->request->getVar('kota');
         dd($this->request->getVar('nama'));
     }
 }

@@ -19,7 +19,7 @@
                   <td><?= $d['nama']; ?></td>
                   <td><?= $d['kota']; ?></td>
                   <td>
-                    <a href="/proyek/<?= $d['nama']; ?>" class="btn btn-success">Edit</a>
+                    <a href="/distributor/edit/<?= $d['nama']; ?>" class="btn btn-success">Edit</a>
                   </td>
                 </tr>
               <?php endforeach; ?>

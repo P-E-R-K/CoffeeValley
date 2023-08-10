@@ -28,7 +28,7 @@ class Coffee extends BaseController
         // foreach($Coffee->getResultArray() as $row) {
         //     d($row);
         // }
-        //  $komikModel = new \App\Models\CoffeeModel();
+        //  $CoffeeModel = new \App\Models\CoffeeModel();
         
         return view('coffee/index', $data);
     }
