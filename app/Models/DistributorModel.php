@@ -8,14 +8,15 @@ class DistributorModel extends Model
 {
     protected $table = 'distributor';
     protected $useTimestamps = true;
+    protected $allowedFields = ['nama', 'kota', 'provinsi', 'negara', 'telepon', 'email'];
 
-    public function getDistributor($slug = false)
+    public function getDistributor($nama = false)
     {
-        if ($slug == false) {
+        if ($nama == false) {
             return $this->findAll();
         }
 
-        return $this->where(['slug' => $slug])->first();
+        return $this->where(['nama' => $nama])->first();
     }
 
     

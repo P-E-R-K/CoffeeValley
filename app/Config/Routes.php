@@ -38,7 +38,8 @@ $routes->get('/katalog', 'Coffee::index');
 $routes->get('/coffee/create', 'Coffee::create');
 $routes->get('/coffee/save', 'Coffee::save');
 
-$routes->get('/distributor/edit/(:segment)', 'Distributor::detail/$1');
+$routes->post('/distributor/save', 'Distributor::save');
+$routes->get('/distributor/edit/(:segment)', 'Distributor::edit/$1');
 
 
 /*

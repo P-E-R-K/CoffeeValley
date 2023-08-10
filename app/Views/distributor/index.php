@@ -3,6 +3,11 @@
 <?= $this->section('content'); ?>
 <div class="container other" id="other">
   <h1 class="">Daftar Distributor</h1>
+  <?php if(session()->getFlashdata('pesan')) : ?>
+    <div class="alert alert-success" role="alert">
+        <?= session()->getFlashdata('pesan'); ?>
+    </div>
+  <?php endif; ?>
     <div class="row">
         <div class="col">      
         <table class="table">
